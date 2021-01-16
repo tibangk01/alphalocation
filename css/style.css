@@ -1,0 +1,202 @@
+html{
+    
+}
+body{
+    margin: 0 8%;
+    padding:0;
+    color:#959595;
+    font:normal 14px/2em Arial, Helvetica, sans-serif;
+    background:url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+fieldset{background: white;}
+
+i{color: #3f86a6;  } 
+.error{color: red;}
+.success{color: forestgreen;}
+.fondGrid{background: white;}
+.delPadRig{padding-right: 0;}
+
+.designFormConnexionProgrammeur{
+    margin-top: 15%;
+    background:white;
+}
+
+.designFormConnexionProgrammeur table{
+    text-align: center;  
+}
+
+
+/* mebu et logo*/
+.logo{
+    padding:15px 0;
+}
+
+/* barre de navigation */
+.menu_nav{
+    margin:0;
+    padding:52px 40px 0 0;
+    float:right;
+    height:29px;
+}
+.menu_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu_nav li {
+    float:right;
+    margin:0 12px 0 0;
+    padding:0;
+}
+
+.menu_nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding:4px 20px;
+    text-decoration: none;
+    font-size:12px;
+    margin : 0;
+    border-radius: 6px 6px 0 0;
+     background-color:#33aace;
+}
+
+.menu_nav ul li.active a, .menu_nav ul li a:hover,.dropdown:hover .dropbtn {
+    background-color:#33aace;
+}
+
+.menu_nav li.dropdown {
+    display: inline-block;
+}
+
+.menu_nav .dropdown-content {
+    display: none;
+    position: absolute; 
+    min-width: 109px;
+}
+
+.menu_nav .dropdown-content a {
+    color: white;
+    padding:4px 20px;
+    text-decoration: none;
+    display: block;
+    margin-top: 3px;
+    border-radius: 0 0 6px 6px; 
+}
+
+.menu_nav .dropdown-content a:hover { background: #33aace;}
+
+.menu_nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+/* barre de navigation */
+
+.message-pad{
+    margin: 50px auto;
+}
+.messageNbAnnonces{
+    margin:  auto;
+    color: white;
+    width: 300px;height: 100px;
+    text-align: center;
+}
+
+.messageNbAnnonces p{
+    text-shadow: 2px 2px 4px #000000;
+}
+.messageNbAnnonces h2{  
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.designTableAnnonces{
+    border:1px solid #91b0be;
+    margin: 0 auto;
+}
+.designTableAnnonces table{
+    width: 100%;
+    font-size: 14px; 
+    table-layout: fixed;
+}
+.designTableAnnonces th { 
+    background-color: #3f86a6;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.designTableAnnonces tr{background-color: #f2f2f2;}
+
+
+.designTableAnnonces td {
+    text-align: center;
+    color: black;
+} 
+
+.footer{
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+
+.messageErreur{
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 10px auto;
+}
+
+
+
+.pagination a {
+    padding:5px 10px;
+    color:#959595;
+    background-color:#fff;
+    border:1px solid #edebeb;
+    text-decoration:none;
+}
+
+.pagination a:hover {
+    padding:5px 10px;
+    color:#000;
+}
+
+
+#btnConnexionAdmin{
+   padding:5px 10px;
+    color:white;
+    background:forestgreen;
+    text-decoration:none;
+} 
+
+.informationsMonCompte{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px; 
+}
+.cardInfos{
+    width: 70%;
+    margin:30px auto; 
+    color  : black;
+}
+.cardInfos fieldset{
+    background: #f2f2f2;
+    text-align: right;
+}
+.cardInfos table{
+    width: 100%;
+    height: 100%; 
+     text-align: center;
+}
+
+.modificationInformations{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 3%;
+}
